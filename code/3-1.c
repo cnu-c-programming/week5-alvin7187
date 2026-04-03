@@ -9,11 +9,8 @@ void read_only(const int *arr, int size){
 }
 
 int main(){
-    char str[] = "2026hello";
-    char *end;
-
-    long val = my_strtol(str, &end);
-    printf("%ld %s\n",val, end);
+    int nums[] = {10,20,30,40,50};
+    read_only(nums, 5);
 
     return 0;
 }
