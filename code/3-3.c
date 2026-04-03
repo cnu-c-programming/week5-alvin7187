@@ -1,0 +1,15 @@
+#include<stdio.h>
+
+
+int main(){
+    int val = 7;
+    int other = 77;
+
+    int *const p = &val;
+    *p = 10;
+    
+
+    printf("%d\n",*p);
+
+    return 0;
+}
